@@ -1,0 +1,51 @@
+<form action="" method="GET">
+  <fieldset>
+    <legend align="left">Datos personales</legend>
+      <label form="nombre">Nombre:</label> 
+      <input type="text" name="nombre" required autofocus>
+      <br/><br/>
+      <label form="email">Correo Electronico:</label> 
+      <input type="email" name="email" required>
+      <br/><br/>
+      <label form="URL">URL:</label> 
+      <!--***************************************************************
+      Me sale un error en la línea 12 y no se cual es el motivo.
+      *******************************************************************-->
+      <input type="URL" name="URL"  placeholder="Escribe la URL de tu página web personal">
+  </fieldset>
+  <br/>
+  <fieldset>
+    <legend align="left">Tiempo</legend>
+      <label form="fecha">Fecha:</label> 
+      <input type="date" name="fecha">
+      <br/><br/>
+      <label form="tiempo">Tiempo:</label> 
+      <input type="time" name="tiempo">
+      <br/><br/>
+      <label form="fechahora">Fecha y hora:</label> 
+      <input type="datetime" name="fechahora">
+      <br/><br/>
+      <label form="mes">Mes:</label> 
+      <input type="month" name="mes">
+      <br/><br/>
+      <label form="semana">Semana:</label> 
+      <input type="week" name="semana">
+      <br/><br/>
+      <label form="numero">Numero:</label> 
+      <input type="number" name="numero">
+  </fieldset>
+  <br/>
+  <fieldset>
+    <legend align="left">Otros Datos</legend>
+      <label form="telefono">Telefono:</label> 
+      <input type="tel" name="telefono">
+      <br/><br/>
+      <label form="buscador">Buscador:</label> 
+      <input type="search" name="buscador">
+      <br/><br/>
+      <label form="color">Color:</label> 
+      <input type="color" name="color">
+  </fieldset>
+  <br/>
+  <input type="submit" value="Envío">
+</form>
